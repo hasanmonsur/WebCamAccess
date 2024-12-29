@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\SPS\\WebcamApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\pages\\webcam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|solutionrelative:pages\\webcam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\controllers\\webcamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|solutionrelative:controllers\\webcamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\pages\\webcam.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|solutionrelative:pages\\webcam.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\webcamapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|solutionrelative:webcamapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|d:\\sps\\webcamapp\\pages\\webcam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17E4D88B-FE84-49E0-9DCB-B9B22A917562}|WebcamApp.csproj|solutionrelative:pages\\webcam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Webcam.cshtml.cs",
+              "DocumentMoniker": "D:\\SPS\\WebcamApp\\Pages\\Webcam.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Webcam.cshtml.cs",
+              "ToolTip": "D:\\SPS\\WebcamApp\\Pages\\Webcam.cshtml.cs",
+              "RelativeToolTip": "Pages\\Webcam.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T11:20:46.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SPS\\WebcamApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -50,43 +66,40 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T11:16:03.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T11:16:03.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WebcamController.cs",
               "DocumentMoniker": "D:\\SPS\\WebcamApp\\Controllers\\WebcamController.cs",
               "RelativeDocumentMoniker": "Controllers\\WebcamController.cs",
               "ToolTip": "D:\\SPS\\WebcamApp\\Controllers\\WebcamController.cs",
               "RelativeToolTip": "Controllers\\WebcamController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T11:15:37.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T11:15:37.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WebcamApp",
               "DocumentMoniker": "D:\\SPS\\WebcamApp\\WebcamApp.csproj",
               "RelativeDocumentMoniker": "WebcamApp.csproj",
               "ToolTip": "D:\\SPS\\WebcamApp\\WebcamApp.csproj",
               "RelativeToolTip": "WebcamApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T11:13:25.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T11:13:25.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Webcam.cshtml",
               "DocumentMoniker": "D:\\SPS\\WebcamApp\\Pages\\Webcam.cshtml",
               "RelativeDocumentMoniker": "Pages\\Webcam.cshtml",
               "ToolTip": "D:\\SPS\\WebcamApp\\Pages\\Webcam.cshtml",
               "RelativeToolTip": "Pages\\Webcam.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-22T11:12:29.413Z",
               "EditorCaption": ""
