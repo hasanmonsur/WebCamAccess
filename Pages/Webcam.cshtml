@@ -1,0 +1,46 @@
+﻿@page
+@model WebcamApp.Pages.WebcamModel
+@{
+
+}
+
+<h1>Webcam Access</h1>
+<video id="webcam" autoplay></video>
+<button id="capture">Capture</button>
+<canvas id="canvas" style="display:none;"></canvas>
+
+<script>
+    const video = document.getElementById('webcam');
+    const canvas = document.getElementById('canvas');
+    const captureButton = document.getElementById('capture');
+
+    // Access the webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then((stream) => {
+            video.srcObject = stream;
+        })
+        .catch((err) => {
+            console.error("Error accessing webcam:", err);
+        });
+
+    // Capture an image from the webcam
+    captureButton.addEventListener('click', () => {
+        const context = canvas.getContext('2d');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const imageData = canvas.toDataURL('image/png');
+
+        // Send the image data to the server
+        fetch('/api/webcam/upload', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ image: imageData }),
+        })
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .catch((err) => console.error("Error uploading image:", err));
+    });
+</script>
